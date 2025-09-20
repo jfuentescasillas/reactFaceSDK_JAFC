@@ -1,0 +1,4 @@
+- Descripción de la solución.
+- Patrones utilizados.
+- Decisiones técnicas destacadas.
+- Aspectos que se podrían mejorar o extender.
