@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E42DEFF82E7F0BDB00EC839E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42DEFD92E7F0BD900EC839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42DEFE02E7F0BD900EC839E;
+			remoteInfo = reactFaceSDK_JAFC;
+		};
+		E42DF0022E7F0BDB00EC839E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42DEFD92E7F0BD900EC839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42DEFE02E7F0BD900EC839E;
+			remoteInfo = reactFaceSDK_JAFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E42DEFE12E7F0BD900EC839E /* reactFaceSDK_JAFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactFaceSDK_JAFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42DEFF72E7F0BDB00EC839E /* reactFaceSDK_JAFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactFaceSDK_JAFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42DF0012E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactFaceSDK_JAFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E42DF0092E7F0BDB00EC839E /* Exceptions for "reactFaceSDK_JAFC" folder in "reactFaceSDK_JAFC" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E42DEFE02E7F0BD900EC839E /* reactFaceSDK_JAFC */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E42DEFE32E7F0BD900EC839E /* reactFaceSDK_JAFC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E42DF0092E7F0BDB00EC839E /* Exceptions for "reactFaceSDK_JAFC" folder in "reactFaceSDK_JAFC" target */,
+			);
+			path = reactFaceSDK_JAFC;
+			sourceTree = "<group>";
+		};
+		E42DEFFA2E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = reactFaceSDK_JAFCTests;
+			sourceTree = "<group>";
+		};
+		E42DF0042E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = reactFaceSDK_JAFCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E42DEFDE2E7F0BD900EC839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42DEFF42E7F0BDB00EC839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42DEFFE2E7F0BDB00EC839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E42DEFD82E7F0BD900EC839E = {
+			isa = PBXGroup;
+			children = (
+				E42DEFE32E7F0BD900EC839E /* reactFaceSDK_JAFC */,
+				E42DEFFA2E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */,
+				E42DF0042E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */,
+				E42DEFE22E7F0BD900EC839E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E42DEFE22E7F0BD900EC839E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E42DEFE12E7F0BD900EC839E /* reactFaceSDK_JAFC.app */,
+				E42DEFF72E7F0BDB00EC839E /* reactFaceSDK_JAFCTests.xctest */,
+				E42DF0012E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E42DEFE02E7F0BD900EC839E /* reactFaceSDK_JAFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42DF00A2E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFC" */;
+			buildPhases = (
+				E42DEFDD2E7F0BD900EC839E /* Sources */,
+				E42DEFDE2E7F0BD900EC839E /* Frameworks */,
+				E42DEFDF2E7F0BD900EC839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E42DEFE32E7F0BD900EC839E /* reactFaceSDK_JAFC */,
+			);
+			name = reactFaceSDK_JAFC;
+			packageProductDependencies = (
+			);
+			productName = reactFaceSDK_JAFC;
+			productReference = E42DEFE12E7F0BD900EC839E /* reactFaceSDK_JAFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E42DEFF62E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42DF00F2E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFCTests" */;
+			buildPhases = (
+				E42DEFF32E7F0BDB00EC839E /* Sources */,
+				E42DEFF42E7F0BDB00EC839E /* Frameworks */,
+				E42DEFF52E7F0BDB00EC839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42DEFF92E7F0BDB00EC839E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E42DEFFA2E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */,
+			);
+			name = reactFaceSDK_JAFCTests;
+			packageProductDependencies = (
+			);
+			productName = reactFaceSDK_JAFCTests;
+			productReference = E42DEFF72E7F0BDB00EC839E /* reactFaceSDK_JAFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E42DF0002E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42DF0122E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFCUITests" */;
+			buildPhases = (
+				E42DEFFD2E7F0BDB00EC839E /* Sources */,
+				E42DEFFE2E7F0BDB00EC839E /* Frameworks */,
+				E42DEFFF2E7F0BDB00EC839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42DF0032E7F0BDB00EC839E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E42DF0042E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */,
+			);
+			name = reactFaceSDK_JAFCUITests;
+			packageProductDependencies = (
+			);
+			productName = reactFaceSDK_JAFCUITests;
+			productReference = E42DF0012E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E42DEFD92E7F0BD900EC839E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					E42DEFE02E7F0BD900EC839E = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					E42DEFF62E7F0BDB00EC839E = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = E42DEFE02E7F0BD900EC839E;
+					};
+					E42DF0002E7F0BDB00EC839E = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = E42DEFE02E7F0BD900EC839E;
+					};
+				};
+			};
+			buildConfigurationList = E42DEFDC2E7F0BD900EC839E /* Build configuration list for PBXProject "reactFaceSDK_JAFC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E42DEFD82E7F0BD900EC839E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E42DEFE22E7F0BD900EC839E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E42DEFE02E7F0BD900EC839E /* reactFaceSDK_JAFC */,
+				E42DEFF62E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */,
+				E42DF0002E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E42DEFDF2E7F0BD900EC839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42DEFF52E7F0BDB00EC839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42DEFFF2E7F0BDB00EC839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E42DEFDD2E7F0BD900EC839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42DEFF32E7F0BDB00EC839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42DEFFD2E7F0BDB00EC839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E42DEFF92E7F0BDB00EC839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42DEFE02E7F0BD900EC839E /* reactFaceSDK_JAFC */;
+			targetProxy = E42DEFF82E7F0BDB00EC839E /* PBXContainerItemProxy */;
+		};
+		E42DF0032E7F0BDB00EC839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42DEFE02E7F0BD900EC839E /* reactFaceSDK_JAFC */;
+			targetProxy = E42DF0022E7F0BDB00EC839E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E42DF00B2E7F0BDB00EC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B98K56955;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reactFaceSDK_JAFC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jfuentescasillas.reactFaceSDK-JAFC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E42DF00C2E7F0BDB00EC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B98K56955;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reactFaceSDK_JAFC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jfuentescasillas.reactFaceSDK-JAFC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E42DF00D2E7F0BDB00EC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7B98K56955;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E42DF00E2E7F0BDB00EC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7B98K56955;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E42DF0102E7F0BDB00EC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B98K56955;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jfuentescasillas.reactFaceSDK-JAFCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactFaceSDK_JAFC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reactFaceSDK_JAFC";
+			};
+			name = Debug;
+		};
+		E42DF0112E7F0BDB00EC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B98K56955;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jfuentescasillas.reactFaceSDK-JAFCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactFaceSDK_JAFC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reactFaceSDK_JAFC";
+			};
+			name = Release;
+		};
+		E42DF0132E7F0BDB00EC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B98K56955;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jfuentescasillas.reactFaceSDK-JAFCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reactFaceSDK_JAFC;
+			};
+			name = Debug;
+		};
+		E42DF0142E7F0BDB00EC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7B98K56955;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jfuentescasillas.reactFaceSDK-JAFCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reactFaceSDK_JAFC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E42DEFDC2E7F0BD900EC839E /* Build configuration list for PBXProject "reactFaceSDK_JAFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42DF00D2E7F0BDB00EC839E /* Debug */,
+				E42DF00E2E7F0BDB00EC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42DF00A2E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42DF00B2E7F0BDB00EC839E /* Debug */,
+				E42DF00C2E7F0BDB00EC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42DF00F2E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42DF0102E7F0BDB00EC839E /* Debug */,
+				E42DF0112E7F0BDB00EC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42DF0122E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42DF0132E7F0BDB00EC839E /* Debug */,
+				E42DF0142E7F0BDB00EC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E42DEFD92E7F0BD900EC839E /* Project object */;
+}
