@@ -5,17 +5,20 @@
 //  Created by jfuentescasillas on 20/09/2025.
 //
 
+
 import XCTest
 
-final class reactFaceSDK_JAFCUITestsLaunchTests: XCTestCase {
 
+final class reactFaceSDK_JAFCUITestsLaunchTests: XCTestCase {
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
 
+    
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
+    
 
     @MainActor
     func testLaunch() throws {
