@@ -65,15 +65,11 @@
 		};
 		E42DEFFA2E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = reactFaceSDK_JAFCTests;
 			sourceTree = "<group>";
 		};
 		E42DF0042E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = reactFaceSDK_JAFCUITests;
 			sourceTree = "<group>";
 		};
@@ -117,7 +113,6 @@
 				40D6E2933BDD8CF85A152FFA /* Pods-reactFaceSDK_JAFCTests.debug.xcconfig */,
 				C03C6F62129E0637666AF74B /* Pods-reactFaceSDK_JAFCTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,9 +295,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -339,9 +338,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
