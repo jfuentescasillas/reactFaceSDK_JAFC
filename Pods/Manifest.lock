@@ -1,0 +1,24 @@
+PODS:
+  - FaceCoreBasic (7.2.1622)
+  - FaceSDK (7.2.3102):
+    - RegulaCommon (= 8.2.1510)
+  - RegulaCommon (8.2.1510)
+
+DEPENDENCIES:
+  - FaceCoreBasic
+  - FaceSDK
+
+SPEC REPOS:
+  trunk:
+    - FaceCoreBasic
+    - FaceSDK
+    - RegulaCommon
+
+SPEC CHECKSUMS:
+  FaceCoreBasic: 8dd4be50401c8ca6021ca9fb8cc005aefe3f020d
+  FaceSDK: ea40a63921dd623e707eea557a7fd94722592e23
+  RegulaCommon: 71c77d81bd1a0b9e481977de52397780d6b749b3
+
+PODFILE CHECKSUM: 7af20a4106fe6e9a27543d85d13f9d6b846ac72f
+
+COCOAPODS: 1.16.2

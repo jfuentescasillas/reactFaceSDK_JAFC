@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		08BE98ADBCED93D13EE14D8B /* libPods-reactFaceSDK_JAFCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF56954C6F78948B09EFC6B /* libPods-reactFaceSDK_JAFCTests.a */; };
+		5D5C83EE91B2F7E185B848DC /* libPods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FF2348FDECF4D3CCA479F6 /* libPods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.a */; };
+		A90304F7F410251DE873132E /* libPods-reactFaceSDK_JAFC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978EB0ADF3B6B9C60C136BA6 /* libPods-reactFaceSDK_JAFC.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E42DEFF82E7F0BDB00EC839E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120447D9B9512C444C999D7E /* Pods-reactFaceSDK_JAFC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactFaceSDK_JAFC.release.xcconfig"; path = "Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC.release.xcconfig"; sourceTree = "<group>"; };
+		33F49676185888E37DC6D92E /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig"; path = "Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3CEED6892FE3CE363F349346 /* Pods-reactFaceSDK_JAFC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactFaceSDK_JAFC.debug.xcconfig"; path = "Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC.debug.xcconfig"; sourceTree = "<group>"; };
+		40D6E2933BDD8CF85A152FFA /* Pods-reactFaceSDK_JAFCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactFaceSDK_JAFCTests.debug.xcconfig"; path = "Target Support Files/Pods-reactFaceSDK_JAFCTests/Pods-reactFaceSDK_JAFCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		895DEEC0DD527E5B44D663C0 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig"; path = "Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		978EB0ADF3B6B9C60C136BA6 /* libPods-reactFaceSDK_JAFC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactFaceSDK_JAFC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03C6F62129E0637666AF74B /* Pods-reactFaceSDK_JAFCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactFaceSDK_JAFCTests.release.xcconfig"; path = "Target Support Files/Pods-reactFaceSDK_JAFCTests/Pods-reactFaceSDK_JAFCTests.release.xcconfig"; sourceTree = "<group>"; };
+		DDF56954C6F78948B09EFC6B /* libPods-reactFaceSDK_JAFCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactFaceSDK_JAFCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42DEFE12E7F0BD900EC839E /* reactFaceSDK_JAFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactFaceSDK_JAFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42DEFF72E7F0BDB00EC839E /* reactFaceSDK_JAFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactFaceSDK_JAFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42DF0012E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactFaceSDK_JAFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FF2348FDECF4D3CCA479F6 /* libPods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,11 +65,15 @@
 		};
 		E42DEFFA2E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = reactFaceSDK_JAFCTests;
 			sourceTree = "<group>";
 		};
 		E42DF0042E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = reactFaceSDK_JAFCUITests;
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90304F7F410251DE873132E /* libPods-reactFaceSDK_JAFC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BE98ADBCED93D13EE14D8B /* libPods-reactFaceSDK_JAFCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +100,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5C83EE91B2F7E185B848DC /* libPods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4973F9098C4A164D46C74FD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CEED6892FE3CE363F349346 /* Pods-reactFaceSDK_JAFC.debug.xcconfig */,
+				120447D9B9512C444C999D7E /* Pods-reactFaceSDK_JAFC.release.xcconfig */,
+				895DEEC0DD527E5B44D663C0 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig */,
+				33F49676185888E37DC6D92E /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig */,
+				40D6E2933BDD8CF85A152FFA /* Pods-reactFaceSDK_JAFCTests.debug.xcconfig */,
+				C03C6F62129E0637666AF74B /* Pods-reactFaceSDK_JAFCTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		516DAA4AF8C70C295AEBC059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978EB0ADF3B6B9C60C136BA6 /* libPods-reactFaceSDK_JAFC.a */,
+				E8FF2348FDECF4D3CCA479F6 /* libPods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.a */,
+				DDF56954C6F78948B09EFC6B /* libPods-reactFaceSDK_JAFCTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E42DEFD82E7F0BD900EC839E = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +138,8 @@
 				E42DEFFA2E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */,
 				E42DF0042E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */,
 				E42DEFE22E7F0BD900EC839E /* Products */,
+				4973F9098C4A164D46C74FD3 /* Pods */,
+				516DAA4AF8C70C295AEBC059 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E42DF00A2E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFC" */;
 			buildPhases = (
+				B28FE73170BB7A3E96430063 /* [CP] Check Pods Manifest.lock */,
 				E42DEFDD2E7F0BD900EC839E /* Sources */,
 				E42DEFDE2E7F0BD900EC839E /* Frameworks */,
 				E42DEFDF2E7F0BD900EC839E /* Resources */,
+				613CEB20DAE40F2A95EA0B84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +174,6 @@
 				E42DEFE32E7F0BD900EC839E /* reactFaceSDK_JAFC */,
 			);
 			name = reactFaceSDK_JAFC;
-			packageProductDependencies = (
-			);
 			productName = reactFaceSDK_JAFC;
 			productReference = E42DEFE12E7F0BD900EC839E /* reactFaceSDK_JAFC.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E42DF00F2E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFCTests" */;
 			buildPhases = (
+				6750B1C84473CFA243B0C85A /* [CP] Check Pods Manifest.lock */,
 				E42DEFF32E7F0BDB00EC839E /* Sources */,
 				E42DEFF42E7F0BDB00EC839E /* Frameworks */,
 				E42DEFF52E7F0BDB00EC839E /* Resources */,
@@ -147,8 +196,6 @@
 				E42DEFFA2E7F0BDB00EC839E /* reactFaceSDK_JAFCTests */,
 			);
 			name = reactFaceSDK_JAFCTests;
-			packageProductDependencies = (
-			);
 			productName = reactFaceSDK_JAFCTests;
 			productReference = E42DEFF72E7F0BDB00EC839E /* reactFaceSDK_JAFCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E42DF0122E7F0BDB00EC839E /* Build configuration list for PBXNativeTarget "reactFaceSDK_JAFCUITests" */;
 			buildPhases = (
+				AE774E72F91BBECC1A5B5A2A /* [CP] Check Pods Manifest.lock */,
 				E42DEFFD2E7F0BDB00EC839E /* Sources */,
 				E42DEFFE2E7F0BDB00EC839E /* Frameworks */,
 				E42DEFFF2E7F0BDB00EC839E /* Resources */,
+				710882E80471C4F9D93F69CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +219,6 @@
 				E42DF0042E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests */,
 			);
 			name = reactFaceSDK_JAFCUITests;
-			packageProductDependencies = (
-			);
 			productName = reactFaceSDK_JAFCUITests;
 			productReference = E42DF0012E7F0BDB00EC839E /* reactFaceSDK_JAFCUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -208,8 +255,6 @@
 			);
 			mainGroup = E42DEFD82E7F0BD900EC839E;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E42DEFE22E7F0BD900EC839E /* Products */;
 			projectDirPath = "";
@@ -245,6 +290,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		613CEB20DAE40F2A95EA0B84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6750B1C84473CFA243B0C85A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactFaceSDK_JAFCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710882E80471C4F9D93F69CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE774E72F91BBECC1A5B5A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B28FE73170BB7A3E96430063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactFaceSDK_JAFC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E42DEFDD2E7F0BD900EC839E /* Sources */ = {
@@ -286,6 +434,7 @@
 /* Begin XCBuildConfiguration section */
 		E42DF00B2E7F0BDB00EC839E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEED6892FE3CE363F349346 /* Pods-reactFaceSDK_JAFC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +471,7 @@
 		};
 		E42DF00C2E7F0BDB00EC839E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120447D9B9512C444C999D7E /* Pods-reactFaceSDK_JAFC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,7 +544,7 @@
 				DEVELOPMENT_TEAM = 7B98K56955;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -458,7 +608,7 @@
 				DEVELOPMENT_TEAM = 7B98K56955;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -479,6 +629,7 @@
 		};
 		E42DF0102E7F0BDB00EC839E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D6E2933BDD8CF85A152FFA /* Pods-reactFaceSDK_JAFCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +652,7 @@
 		};
 		E42DF0112E7F0BDB00EC839E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03C6F62129E0637666AF74B /* Pods-reactFaceSDK_JAFCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +675,7 @@
 		};
 		E42DF0132E7F0BDB00EC839E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895DEEC0DD527E5B44D663C0 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,6 +696,7 @@
 		};
 		E42DF0142E7F0BDB00EC839E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F49676185888E37DC6D92E /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -1,0 +1,1046 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 289521A8F69C541BB65C11B3C59B8360 /* Build configuration list for PBXAggregateTarget "RegulaCommon" */;
+			buildPhases = (
+				D096F8A06F0B7BBBEC3B6B5FE721506C /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = RegulaCommon;
+		};
+		AF78C9890F83910A18E2955284CD7647 /* FaceCoreBasic */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02F317492665AC654A9FE1C86A6651A0 /* Build configuration list for PBXAggregateTarget "FaceCoreBasic" */;
+			buildPhases = (
+				74229F42043C7C38187F5550000F130A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FaceCoreBasic;
+		};
+		FF0840A6D54623A52E6F41E259141AE6 /* FaceSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D876DB424425B9F7D221B341EA98CD03 /* Build configuration list for PBXAggregateTarget "FaceSDK" */;
+			buildPhases = (
+				06E61040AD61B67EFC4A6290A937AF6E /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				469EC005CB9CC27B5E64FCD186FA0590 /* PBXTargetDependency */,
+			);
+			name = FaceSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1AC708AE0F292B82ECD549B94FC8C107 /* Pods-reactFaceSDK_JAFC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AF1AA0D523DA524B461B9BF786D8A /* Pods-reactFaceSDK_JAFC-dummy.m */; };
+		80F3CE88696742F12390CE665A598269 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEB1D14B65A02F3897F6D621CE7304 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-dummy.m */; };
+		B3C4FA5774C628F09CE6DB19995A1BF9 /* Pods-reactFaceSDK_JAFCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA645DB6EF3E9EC5F7101C699A6DDD /* Pods-reactFaceSDK_JAFCTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254D8DF03F828D55CF43D255E0EBF413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5111B24D67EC6553E3EB451E2EE962AF;
+			remoteInfo = RegulaCommon;
+		};
+		2988135E00C686757CD62C636541803C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5111B24D67EC6553E3EB451E2EE962AF;
+			remoteInfo = RegulaCommon;
+		};
+		47955E08774CB35AA34B9E257F42E0B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0840A6D54623A52E6F41E259141AE6;
+			remoteInfo = FaceSDK;
+		};
+		4D29198D9F892C258368D41EC33AF1F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF78C9890F83910A18E2955284CD7647;
+			remoteInfo = FaceCoreBasic;
+		};
+		6EC3B42EE3EF4B5CA7B4EA6DE5AB6CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0840A6D54623A52E6F41E259141AE6;
+			remoteInfo = FaceSDK;
+		};
+		741784E281115B413964A363B8BF79B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF78C9890F83910A18E2955284CD7647;
+			remoteInfo = FaceCoreBasic;
+		};
+		CB6FAD2FD35DEAEFBD3347F01BA9EBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC54E2C2C6D6523055E7AFF8876956EC;
+			remoteInfo = "Pods-reactFaceSDK_JAFC";
+		};
+		ED8B1DB23FDDD13911173A10D0F26496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5111B24D67EC6553E3EB451E2EE962AF;
+			remoteInfo = RegulaCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004AF1AA0D523DA524B461B9BF786D8A /* Pods-reactFaceSDK_JAFC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reactFaceSDK_JAFC-dummy.m"; sourceTree = "<group>"; };
+		039708551E59D02028713B6047E6F2F6 /* Pods-reactFaceSDK_JAFC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reactFaceSDK_JAFC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0520C8C568EAA4C1EDB265C348E3E5C5 /* FaceCoreBasic-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FaceCoreBasic-xcframeworks.sh"; sourceTree = "<group>"; };
+		12FA894FBB4855E4154EFFC1BDF30593 /* Liveness.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Liveness.xcframework; sourceTree = "<group>"; };
+		13B70BD3A5F38FFACBC9627A349EAEDC /* Pods-reactFaceSDK_JAFC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reactFaceSDK_JAFC.release.xcconfig"; sourceTree = "<group>"; };
+		20976EC64716E2F7B87CC5233D1BD577 /* Pods-reactFaceSDK_JAFC */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-reactFaceSDK_JAFC"; path = "libPods-reactFaceSDK_JAFC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26147258CE22DCEABE69DF8352EA2149 /* FaceCoreBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceCoreBasic.debug.xcconfig; sourceTree = "<group>"; };
+		37EC2D3A39C0DE10767D1AD1F256C051 /* RegulaCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RegulaCommon.debug.xcconfig; sourceTree = "<group>"; };
+		3D76B29CD81D58EAEC98F9771893E337 /* Pods-reactFaceSDK_JAFCTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-reactFaceSDK_JAFCTests"; path = "libPods-reactFaceSDK_JAFCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B035379A1EDAF887AA8550B64117D /* FaceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceSDK.debug.xcconfig; sourceTree = "<group>"; };
+		4FE2F47F251AB5B7A1E614A6CC7863F2 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53C4EC5D94093A8BD8E5045C9117426D /* Pods-reactFaceSDK_JAFCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reactFaceSDK_JAFCTests.release.xcconfig"; sourceTree = "<group>"; };
+		6195E21E4BE652717EFEEE5FB1AD184D /* RegulaCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = RegulaCommon.xcframework; sourceTree = "<group>"; };
+		686A284A8C88AEB918E0C165C35F9C15 /* Pods-reactFaceSDK_JAFCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reactFaceSDK_JAFCTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		69F0CFF7C33663F4E319CB21BBD07CC6 /* Pods-reactFaceSDK_JAFCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reactFaceSDK_JAFCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AB3A6693D469B0B8A0A25FD7877A8DA /* Pods-reactFaceSDK_JAFC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reactFaceSDK_JAFC-acknowledgements.plist"; sourceTree = "<group>"; };
+		7ADA8AEBE9663E76CF70D71A29662281 /* FaceCoreBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceCoreBasic.release.xcconfig; sourceTree = "<group>"; };
+		861BFEEFE2D3A61DC50907E71BC2E495 /* Pods-reactFaceSDK_JAFC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-reactFaceSDK_JAFC-frameworks.sh"; sourceTree = "<group>"; };
+		8CDEB1D14B65A02F3897F6D621CE7304 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-dummy.m"; sourceTree = "<group>"; };
+		90F1548365C47E898CD8EF0EBE9CB276 /* FaceSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FaceSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		9610E1A36C5C535BCD896D05D16D71C2 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E022DDC4B133D87C769AD11EA11FE41 /* FaceSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FaceSDK.xcframework; sourceTree = "<group>"; };
+		ACAEC92D311C7BCDA6861100EA0D53BF /* RegulaCommon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "RegulaCommon-xcframeworks.sh"; sourceTree = "<group>"; };
+		B1CE4AF7469E1FE2876BDD5F78E11CBD /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests"; path = "libPods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62D2A1E6652CCFBC5CBCC575D641DB6 /* Pods-reactFaceSDK_JAFC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reactFaceSDK_JAFC.debug.xcconfig"; sourceTree = "<group>"; };
+		B9E24A88E790621D09D7C929634DD4FB /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BBAA645DB6EF3E9EC5F7101C699A6DDD /* Pods-reactFaceSDK_JAFCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reactFaceSDK_JAFCTests-dummy.m"; sourceTree = "<group>"; };
+		C7EB83C97734AD12805B65BBAF871F59 /* RegulaCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RegulaCommon.release.xcconfig; sourceTree = "<group>"; };
+		CA4249F33B314FF943EE2F86E971ADF7 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CAA88B4778B5A51F6B301BF78624AE0A /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D59A6413537B929A65242786E109A987 /* FaceSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceSDK.release.xcconfig; sourceTree = "<group>"; };
+		EC9D4F1CB256E5B73A3D328B245E8E65 /* Pods-reactFaceSDK_JAFCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reactFaceSDK_JAFCTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A6B90243FC36757CBD228248BFD6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615996ED9EE140438AD123D019BACC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BA6C8BBD02B69AFAA787A82CF22028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D20D592DB1C228DFA24058B966DE38C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B2C9FDD2A0F72AB07D65C546D3901 /* Pods-reactFaceSDK_JAFC */,
+				D34A71A12468955DF96755215B003A79 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests */,
+				7EEDF0379B952658741D22BC0269C4AA /* Pods-reactFaceSDK_JAFCTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		28D1E2D80A657E5A9288027C0EDBC550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6195E21E4BE652717EFEEE5FB1AD184D /* RegulaCommon.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		513A1A3F6F1AA1181279034E3A1FE234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD8E503218A3C3CE0D3498F9EE2E9BDC /* FaceCoreBasic */,
+				71C4A7C54A4E67C98D29ED6BF62F6661 /* FaceSDK */,
+				E0C3547A595679082F526CBF291C8030 /* RegulaCommon */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C05639BE2FF2B40B111B0EB8427E892 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAEC92D311C7BCDA6861100EA0D53BF /* RegulaCommon-xcframeworks.sh */,
+				37EC2D3A39C0DE10767D1AD1F256C051 /* RegulaCommon.debug.xcconfig */,
+				C7EB83C97734AD12805B65BBAF871F59 /* RegulaCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RegulaCommon";
+			sourceTree = "<group>";
+		};
+		71C4A7C54A4E67C98D29ED6BF62F6661 /* FaceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D640FC53EAE6DDE0D6FC2A92A414044D /* Frameworks */,
+				94C2A33B3BF721D245DF02E05DABD53C /* Support Files */,
+			);
+			name = FaceSDK;
+			path = FaceSDK;
+			sourceTree = "<group>";
+		};
+		7EEDF0379B952658741D22BC0269C4AA /* Pods-reactFaceSDK_JAFCTests */ = {
+			isa = PBXGroup;
+			children = (
+				69F0CFF7C33663F4E319CB21BBD07CC6 /* Pods-reactFaceSDK_JAFCTests-acknowledgements.markdown */,
+				686A284A8C88AEB918E0C165C35F9C15 /* Pods-reactFaceSDK_JAFCTests-acknowledgements.plist */,
+				BBAA645DB6EF3E9EC5F7101C699A6DDD /* Pods-reactFaceSDK_JAFCTests-dummy.m */,
+				EC9D4F1CB256E5B73A3D328B245E8E65 /* Pods-reactFaceSDK_JAFCTests.debug.xcconfig */,
+				53C4EC5D94093A8BD8E5045C9117426D /* Pods-reactFaceSDK_JAFCTests.release.xcconfig */,
+			);
+			name = "Pods-reactFaceSDK_JAFCTests";
+			path = "Target Support Files/Pods-reactFaceSDK_JAFCTests";
+			sourceTree = "<group>";
+		};
+		94C2A33B3BF721D245DF02E05DABD53C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F1548365C47E898CD8EF0EBE9CB276 /* FaceSDK-xcframeworks.sh */,
+				497B035379A1EDAF887AA8550B64117D /* FaceSDK.debug.xcconfig */,
+				D59A6413537B929A65242786E109A987 /* FaceSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceSDK";
+			sourceTree = "<group>";
+		};
+		98F140743FF43CCF26B8A34C008BE1FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0520C8C568EAA4C1EDB265C348E3E5C5 /* FaceCoreBasic-xcframeworks.sh */,
+				26147258CE22DCEABE69DF8352EA2149 /* FaceCoreBasic.debug.xcconfig */,
+				7ADA8AEBE9663E76CF70D71A29662281 /* FaceCoreBasic.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceCoreBasic";
+			sourceTree = "<group>";
+		};
+		BD8E503218A3C3CE0D3498F9EE2E9BDC /* FaceCoreBasic */ = {
+			isa = PBXGroup;
+			children = (
+				E76937842C93444E6599E131EC4947EE /* Frameworks */,
+				98F140743FF43CCF26B8A34C008BE1FE /* Support Files */,
+			);
+			name = FaceCoreBasic;
+			path = FaceCoreBasic;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				513A1A3F6F1AA1181279034E3A1FE234 /* Pods */,
+				DFF6E4B00874BBA6E23331EBC5DC24B1 /* Products */,
+				1D20D592DB1C228DFA24058B966DE38C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D34A71A12468955DF96755215B003A79 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA4249F33B314FF943EE2F86E971ADF7 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-acknowledgements.markdown */,
+				CAA88B4778B5A51F6B301BF78624AE0A /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-acknowledgements.plist */,
+				8CDEB1D14B65A02F3897F6D621CE7304 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-dummy.m */,
+				B9E24A88E790621D09D7C929634DD4FB /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-frameworks.sh */,
+				9610E1A36C5C535BCD896D05D16D71C2 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig */,
+				4FE2F47F251AB5B7A1E614A6CC7863F2 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig */,
+			);
+			name = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests";
+			path = "Target Support Files/Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests";
+			sourceTree = "<group>";
+		};
+		D640FC53EAE6DDE0D6FC2A92A414044D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E022DDC4B133D87C769AD11EA11FE41 /* FaceSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF6E4B00874BBA6E23331EBC5DC24B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20976EC64716E2F7B87CC5233D1BD577 /* Pods-reactFaceSDK_JAFC */,
+				B1CE4AF7469E1FE2876BDD5F78E11CBD /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests */,
+				3D76B29CD81D58EAEC98F9771893E337 /* Pods-reactFaceSDK_JAFCTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0C3547A595679082F526CBF291C8030 /* RegulaCommon */ = {
+			isa = PBXGroup;
+			children = (
+				28D1E2D80A657E5A9288027C0EDBC550 /* Frameworks */,
+				5C05639BE2FF2B40B111B0EB8427E892 /* Support Files */,
+			);
+			name = RegulaCommon;
+			path = RegulaCommon;
+			sourceTree = "<group>";
+		};
+		E76937842C93444E6599E131EC4947EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12FA894FBB4855E4154EFFC1BDF30593 /* Liveness.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA4B2C9FDD2A0F72AB07D65C546D3901 /* Pods-reactFaceSDK_JAFC */ = {
+			isa = PBXGroup;
+			children = (
+				039708551E59D02028713B6047E6F2F6 /* Pods-reactFaceSDK_JAFC-acknowledgements.markdown */,
+				7AB3A6693D469B0B8A0A25FD7877A8DA /* Pods-reactFaceSDK_JAFC-acknowledgements.plist */,
+				004AF1AA0D523DA524B461B9BF786D8A /* Pods-reactFaceSDK_JAFC-dummy.m */,
+				861BFEEFE2D3A61DC50907E71BC2E495 /* Pods-reactFaceSDK_JAFC-frameworks.sh */,
+				B62D2A1E6652CCFBC5CBCC575D641DB6 /* Pods-reactFaceSDK_JAFC.debug.xcconfig */,
+				13B70BD3A5F38FFACBC9627A349EAEDC /* Pods-reactFaceSDK_JAFC.release.xcconfig */,
+			);
+			name = "Pods-reactFaceSDK_JAFC";
+			path = "Target Support Files/Pods-reactFaceSDK_JAFC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E387F5FDE689E36B18E1A7D07AD2ED8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A5429CE43F41960BC4F415FFF3CD46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6957BD09600F81EAC37E1FF25CC28C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		232E30798842C1D3AD1F7AA793DFE59E /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE9D82C5E801DF8F04EB2D43E49CA3A /* Build configuration list for PBXNativeTarget "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests" */;
+			buildPhases = (
+				B6957BD09600F81EAC37E1FF25CC28C0 /* Headers */,
+				9BC40B8C1739A5E6EE175DBFED76C3CA /* Sources */,
+				E7BA6C8BBD02B69AFAA787A82CF22028 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B4487EFCCFB8EF1058494FE9A3004A /* PBXTargetDependency */,
+				4A1BA9A77F53952149000EC1CE07A8B9 /* PBXTargetDependency */,
+				8FA65100296616364E8BCF8CE1C1F8C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests";
+			productName = "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests";
+			productReference = B1CE4AF7469E1FE2876BDD5F78E11CBD /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC54E2C2C6D6523055E7AFF8876956EC /* Pods-reactFaceSDK_JAFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD700B1BE46D72B96067AF9F26A6D6D7 /* Build configuration list for PBXNativeTarget "Pods-reactFaceSDK_JAFC" */;
+			buildPhases = (
+				55A5429CE43F41960BC4F415FFF3CD46 /* Headers */,
+				FAD1D083FC6AB365C9A4DAF3D21B736D /* Sources */,
+				39A6B90243FC36757CBD228248BFD6A5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8514A8741DC43C9FB50FAE3F8457D710 /* PBXTargetDependency */,
+				0F52EBDA029EA8A41E7F6730C961AAEC /* PBXTargetDependency */,
+				FF9D530FADB1F0E4A2F644729DBCD5FA /* PBXTargetDependency */,
+			);
+			name = "Pods-reactFaceSDK_JAFC";
+			productName = "Pods-reactFaceSDK_JAFC";
+			productReference = 20976EC64716E2F7B87CC5233D1BD577 /* Pods-reactFaceSDK_JAFC */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1D8159449D1B9CBB3AA4AC4716173D7 /* Pods-reactFaceSDK_JAFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B661E0BB80D33A9A699AC20A21BDB4 /* Build configuration list for PBXNativeTarget "Pods-reactFaceSDK_JAFCTests" */;
+			buildPhases = (
+				4E387F5FDE689E36B18E1A7D07AD2ED8 /* Headers */,
+				92CC1624BD3D0FC1B4E3A22DA358D259 /* Sources */,
+				615996ED9EE140438AD123D019BACC5F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9918975992895D4029FF6EAB35B8493F /* PBXTargetDependency */,
+			);
+			name = "Pods-reactFaceSDK_JAFCTests";
+			productName = "Pods-reactFaceSDK_JAFCTests";
+			productReference = 3D76B29CD81D58EAEC98F9771893E337 /* Pods-reactFaceSDK_JAFCTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DFF6E4B00874BBA6E23331EBC5DC24B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF78C9890F83910A18E2955284CD7647 /* FaceCoreBasic */,
+				FF0840A6D54623A52E6F41E259141AE6 /* FaceSDK */,
+				CC54E2C2C6D6523055E7AFF8876956EC /* Pods-reactFaceSDK_JAFC */,
+				232E30798842C1D3AD1F7AA793DFE59E /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests */,
+				F1D8159449D1B9CBB3AA4AC4716173D7 /* Pods-reactFaceSDK_JAFCTests */,
+				5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E61040AD61B67EFC4A6290A937AF6E /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceSDK/FaceSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceSDK/FaceSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FaceSDK/FaceSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74229F42043C7C38187F5550000F130A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceCoreBasic/FaceCoreBasic-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceCoreBasic/FaceCoreBasic-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FaceCoreBasic/FaceCoreBasic-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D096F8A06F0B7BBBEC3B6B5FE721506C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RegulaCommon/RegulaCommon-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RegulaCommon/RegulaCommon-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/RegulaCommon/RegulaCommon-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CC1624BD3D0FC1B4E3A22DA358D259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C4FA5774C628F09CE6DB19995A1BF9 /* Pods-reactFaceSDK_JAFCTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC40B8C1739A5E6EE175DBFED76C3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F3CE88696742F12390CE665A598269 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD1D083FC6AB365C9A4DAF3D21B736D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC708AE0F292B82ECD549B94FC8C107 /* Pods-reactFaceSDK_JAFC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F52EBDA029EA8A41E7F6730C961AAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceSDK;
+			target = FF0840A6D54623A52E6F41E259141AE6 /* FaceSDK */;
+			targetProxy = 47955E08774CB35AA34B9E257F42E0B2 /* PBXContainerItemProxy */;
+		};
+		469EC005CB9CC27B5E64FCD186FA0590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegulaCommon;
+			target = 5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */;
+			targetProxy = 254D8DF03F828D55CF43D255E0EBF413 /* PBXContainerItemProxy */;
+		};
+		4A1BA9A77F53952149000EC1CE07A8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceSDK;
+			target = FF0840A6D54623A52E6F41E259141AE6 /* FaceSDK */;
+			targetProxy = 6EC3B42EE3EF4B5CA7B4EA6DE5AB6CBF /* PBXContainerItemProxy */;
+		};
+		75B4487EFCCFB8EF1058494FE9A3004A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceCoreBasic;
+			target = AF78C9890F83910A18E2955284CD7647 /* FaceCoreBasic */;
+			targetProxy = 741784E281115B413964A363B8BF79B8 /* PBXContainerItemProxy */;
+		};
+		8514A8741DC43C9FB50FAE3F8457D710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceCoreBasic;
+			target = AF78C9890F83910A18E2955284CD7647 /* FaceCoreBasic */;
+			targetProxy = 4D29198D9F892C258368D41EC33AF1F4 /* PBXContainerItemProxy */;
+		};
+		8FA65100296616364E8BCF8CE1C1F8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegulaCommon;
+			target = 5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */;
+			targetProxy = 2988135E00C686757CD62C636541803C /* PBXContainerItemProxy */;
+		};
+		9918975992895D4029FF6EAB35B8493F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-reactFaceSDK_JAFC";
+			target = CC54E2C2C6D6523055E7AFF8876956EC /* Pods-reactFaceSDK_JAFC */;
+			targetProxy = CB6FAD2FD35DEAEFBD3347F01BA9EBFF /* PBXContainerItemProxy */;
+		};
+		FF9D530FADB1F0E4A2F644729DBCD5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegulaCommon;
+			target = 5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */;
+			targetProxy = ED8B1DB23FDDD13911173A10D0F26496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11408B2012B87C4D7E0996B900724580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE2F47F251AB5B7A1E614A6CC7863F2 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DCD7D372A0A695AEBE4B035EE8DE777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C4EC5D94093A8BD8E5045C9117426D /* Pods-reactFaceSDK_JAFCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4753F18DF3DC2C8530BE013D62A9CE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26147258CE22DCEABE69DF8352EA2149 /* FaceCoreBasic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5544A81DEEF3B615CBACC0AB797304E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9610E1A36C5C535BCD896D05D16D71C2 /* Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8ED5E6BB7B99ECBCA47212A42F9872E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B70BD3A5F38FFACBC9627A349EAEDC /* Pods-reactFaceSDK_JAFC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E0B3797ACB8A98091954343B88673AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9D4F1CB256E5B73A3D328B245E8E65 /* Pods-reactFaceSDK_JAFCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6E0AF597832460C1FE22CCAEB118198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62D2A1E6652CCFBC5CBCC575D641DB6 /* Pods-reactFaceSDK_JAFC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B94A459D5C1E82202656A7AEC7120A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EC2D3A39C0DE10767D1AD1F256C051 /* RegulaCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C447C1896FF2562207799CB32AFE771E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497B035379A1EDAF887AA8550B64117D /* FaceSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7C0F6E9980A128273DDF225B586CCE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59A6413537B929A65242786E109A987 /* FaceSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2371991B5503A381BB13FEBBF91041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADA8AEBE9663E76CF70D71A29662281 /* FaceCoreBasic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBC851C45BD250858A87987FE1003AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EB83C97734AD12805B65BBAF871F59 /* RegulaCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F317492665AC654A9FE1C86A6651A0 /* Build configuration list for PBXAggregateTarget "FaceCoreBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4753F18DF3DC2C8530BE013D62A9CE27 /* Debug */,
+				E2371991B5503A381BB13FEBBF91041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289521A8F69C541BB65C11B3C59B8360 /* Build configuration list for PBXAggregateTarget "RegulaCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94A459D5C1E82202656A7AEC7120A4C /* Debug */,
+				FBBC851C45BD250858A87987FE1003AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B661E0BB80D33A9A699AC20A21BDB4 /* Build configuration list for PBXNativeTarget "Pods-reactFaceSDK_JAFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0B3797ACB8A98091954343B88673AE /* Debug */,
+				2DCD7D372A0A695AEBE4B035EE8DE777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE9D82C5E801DF8F04EB2D43E49CA3A /* Build configuration list for PBXNativeTarget "Pods-reactFaceSDK_JAFC-reactFaceSDK_JAFCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5544A81DEEF3B615CBACC0AB797304E1 /* Debug */,
+				11408B2012B87C4D7E0996B900724580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D876DB424425B9F7D221B341EA98CD03 /* Build configuration list for PBXAggregateTarget "FaceSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C447C1896FF2562207799CB32AFE771E /* Debug */,
+				D7C0F6E9980A128273DDF225B586CCE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD700B1BE46D72B96067AF9F26A6D6D7 /* Build configuration list for PBXNativeTarget "Pods-reactFaceSDK_JAFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E0AF597832460C1FE22CCAEB118198 /* Debug */,
+				8ED5E6BB7B99ECBCA47212A42F9872E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,23 @@
+framework module FaceSDK {
+    umbrella header "FaceSDK.h"
+
+    export *
+    module * { export * }
+
+    explicit module Private {
+        header "RFSFaceSDKErrors.h"
+        header "RFSBackendError.h"
+        header "RFSLivenessBackendError.h"
+        header "RFSDetectFacesBackendError.h"
+        header "RFSMatchFacesBackendError.h"
+
+        header "RFSMatchFacesRequest+Private.h"
+        header "RFSMatchFacesComparedFace+Private.h"
+        header "RFSMatchFacesComparedFacesPair+Private.h"
+        header "RFSMatchFacesDetection+Private.h"
+        header "RFSMatchFacesDetectionFace+Private.h"
+	
+        header "RFSFaceSDK+Private.h"
+        export *
+    }
+}

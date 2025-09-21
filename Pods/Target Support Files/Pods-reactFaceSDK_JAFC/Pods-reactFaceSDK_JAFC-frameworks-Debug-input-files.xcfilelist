@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-reactFaceSDK_JAFC/Pods-reactFaceSDK_JAFC-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FaceCoreBasic/Liveness.framework/Liveness
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FaceSDK/FaceSDK.framework/FaceSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RegulaCommon/RegulaCommon.framework/RegulaCommon

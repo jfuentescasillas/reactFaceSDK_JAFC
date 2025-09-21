@@ -1,0 +1,11 @@
+framework module RegulaCommon {
+  umbrella header "RegulaCommon.h"
+  export *
+
+  module * { export * }
+}
+
+module RegulaCommon.Swift {
+  header "RegulaCommon-Swift.h"
+  requires objc
+}
