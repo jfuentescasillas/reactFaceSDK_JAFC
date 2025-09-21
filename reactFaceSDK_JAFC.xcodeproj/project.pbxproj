@@ -209,7 +209,6 @@
 			mainGroup = E42DEFD82E7F0BD900EC839E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E42DF0152E7F0E9E00EC839E /* XCRemoteSwiftPackageReference "FaceSDK-Swift-Package" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E42DEFE22E7F0BD900EC839E /* Products */;
@@ -602,17 +601,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E42DF0152E7F0E9E00EC839E /* XCRemoteSwiftPackageReference "FaceSDK-Swift-Package" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/regulaforensics/FaceSDK-Swift-Package";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.2.3102;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = E42DEFD92E7F0BD900EC839E /* Project object */;
 }
