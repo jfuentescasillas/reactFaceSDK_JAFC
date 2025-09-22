@@ -9,6 +9,7 @@
 import UIKit
 import FaceSDK
 
+
 // MARK: - FaceSDKError enum
 public enum FaceSDKError: Error {
     case notInitialized

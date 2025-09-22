@@ -12,10 +12,10 @@ import PhotosUI
 
 public class FaceViewController: UIViewController {
     // MARK: - Properties
-    private lazy var presenter: FacePresenter = FacePresenter(view: self)
+    private lazy var presenter = FacePresenter(view: self)
 
     // Image picker (reutilizable)
-    private lazy var imagePicker: ImagePicker = ImagePicker(presenter: self, delegate: self)
+    private lazy var imagePicker = ImagePicker(presenter: self, delegate: self)
 
     // UI references
     private var capturedImageView: UIImageView!
@@ -156,8 +156,7 @@ public class FaceViewController: UIViewController {
     
 
     @objc private func chooseTapped() {
-        // Present ImagePicker action sheet (pop-over from button on iPad)
-        imagePicker.presentPickerActions(from: chooseButton)
+        presenter.presentPicker(from: chooseButton)
     }
 
     
@@ -179,7 +178,7 @@ public class FaceViewController: UIViewController {
 
 // MARK: - Extension. FaceViewProtocol
 extension FaceViewController: FaceViewProtocol {
-    public func showLoading(_ show: Bool) {
+public func showLoading(_ show: Bool) {
         DispatchQueue.main.async { [weak self] in
             guard let self else { return }
             
@@ -188,14 +187,14 @@ extension FaceViewController: FaceViewProtocol {
             } else {
                 self.activityIndicator.stopAnimating()
             }
-
+            
             self.captureButton.isEnabled = !show
             self.chooseButton.isEnabled = !show
             self.compareButton.isEnabled = !show
             self.resetButton.isEnabled = !show
         }
     }
-
+    
     
     public func showCapturedImage(_ image: UIImage) {
         DispatchQueue.main.async { [weak self] in
@@ -210,7 +209,7 @@ extension FaceViewController: FaceViewProtocol {
             self.capturedImageView.backgroundColor = .clear
         }
     }
-
+    
     
     public func showGalleryImage(_ image: UIImage) {
         DispatchQueue.main.async { [weak self] in
@@ -228,7 +227,7 @@ extension FaceViewController: FaceViewProtocol {
             self?.resultLabel.text = String(format: "Similarity: %.1f %%", percentage)
         }
     }
-
+    
     
     public func showError(_ message: String) {
         DispatchQueue.main.async { [weak self] in
@@ -249,6 +248,12 @@ extension FaceViewController: FaceViewProtocol {
             self.galleryImageView.image = nil
             self.resultLabel.text = ""
         }
+    }
+    
+    
+    public func presentImagePicker(from sourceView: UIView?) {
+        // Present ImagePicker action sheet (pop-over from button on iPad)
+        imagePicker.presentPickerActions(from: sourceView)
     }
 }
 

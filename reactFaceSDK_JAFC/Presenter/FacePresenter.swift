@@ -17,6 +17,7 @@ public protocol FacePresenterProtocol: AnyObject {
     func didReceiveGalleryImage(_ image: UIImage)
     func didTapCompare()
     func didTapReset()
+    func presentPicker(from sourceView: UIView?)
 }
 
  
@@ -28,6 +29,8 @@ public protocol FaceViewProtocol: AnyObject {
     func showSimilarity(_ percentage: Double)
     func showError(_ message: String)
     func resetUI()
+    
+    func presentImagePicker(from sourceView: UIView?)
 }
 
 
@@ -102,7 +105,6 @@ public class FacePresenter: FacePresenterProtocol {
     }
     
     
-
     public func didTapCompare() {
         guard let img1 = capturedImage, let img2 = galleryImage else {
             view?.showError("Missing images to compare")
@@ -136,6 +138,12 @@ public class FacePresenter: FacePresenterProtocol {
     }
     
     
+    public func presentPicker(from sourceView: UIView?) {
+        view?.presentImagePicker(from: sourceView)
+    }
+    
+    
+    // MARK: - Deinitialize SDK
     public func stop() {
         sdk.deinitializeSDK()
     }
